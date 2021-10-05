@@ -30,11 +30,11 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/projectDetails" component={Projects} />
-          <Route path="/aboutPage" component={About} />
-          <Route path="/resumePage" component={Resume} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/blog" exact component={Home} />
+          <Route path="/blog/projectDetails" component={Projects} />
+          <Route path="/blog/aboutPage" component={About} />
+          <Route path="/blog/resumePage" component={Resume} />
+          <Route path="/blog/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>
